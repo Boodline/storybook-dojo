@@ -2,15 +2,13 @@
 
 # Instalación
 
-[pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 ```bash
 $ npx sb init
 ```
 
 Al ejecutar el comando se preguntará si se desea elegir el tipo de proyecto del storybook (framework a utilizar), en este caso respondemos 'Yes' y seleccionamos la opcion 'REACT'
 
-Para verificar la instalación ejecutamos:
+Para verificar la instalación e iniciar el storybook ejecutamos:
 ```bash
 $ npm run storybook
 ```
@@ -30,14 +28,45 @@ https://storybook.js.org/docs/react/get-started/install
 
 ## Ejemplo
 
+### Árbol de archivos
+
 Creación de las carpetas y archivos
 
 <p align="center">
-  <img src="files-component.png" />
+  <img src="./tutorial-assets/files-component.png" />
 </p>
 
 ### Input.js
 
 <p align="center">
-  <img src="code-component.png" />
+  <img src="./tutorial-assets/code-component.png" />
+</p>
+
+# Crear un componente
+
+  - Dentro de la carpeta designada para el componente creamos el archivo *.stories.ts*
+    - Aqui se deberá definir cada uno de los stories que queramos presentar
+    - En la version actual (6.0.13) la documentación y controles base serán automáticamente implementados
+
+## Ejemplo
+
+### Árbol de archivos
+
+<p align="center">
+  <img src="./tutorial-assets/files-stories.png" />
+</p>
+
+### Input.stories.js
+
+<p align="center">
+  <img src="./tutorial-assets/code-stories.png" />
+</p>
+
+## Resultado
+
+<p align="center">
+  <img src="./tutorial-assets/result-1.png" />
+</p>
+<p align="center">
+  <img src="./tutorial-assets/result-2.png" />
 </p>
