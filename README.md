@@ -2,6 +2,8 @@
 
 # Instalación
 
+Para instalar e iniciar el proyecto ejecutamos:
+
 ```bash
 $ npx sb init
 ```
@@ -26,8 +28,6 @@ https://storybook.js.org/docs/react/get-started/install
 
 > En este paso no se podrá probar el funcionamiento del componente ya que para eso requerimos ya crear un Story
 
-## Ejemplo
-
 ### Árbol de archivos
 
 Creación de las carpetas y archivos
@@ -36,13 +36,8 @@ Creación de las carpetas y archivos
   <img src="./tutorial-assets/files-component.png" />
 </p>
 
-### Input.js
 
-<p align="center">
-  <img src="./tutorial-assets/code-component.png" />
-</p>
-
-# Crear un componente
+# Crear un story
 
   - Dentro de la carpeta designada para el componente creamos el archivo *.stories.ts*
     - Aqui se deberá definir cada uno de los stories que queramos presentar
