@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component tests should render component 1`] = `
+<div>
+  <label>
+    Label
+  </label>
+  <div>
+    <input
+      data-testid="input-component"
+      disabled={false}
+      id="input-component"
+      onChange={[Function]}
+      placeholder="write here"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

@@ -42,6 +42,7 @@ export const Input = (
           type={type}
           placeholder={placeholder}
           style={backgroundColor && { backgroundColor }}
+          data-testid='input-component'
         />
       </div>
     </div>
