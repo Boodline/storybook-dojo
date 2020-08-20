@@ -34,6 +34,7 @@ Creación de las carpetas y archivos
 <p align="center">
   <img src="./tutorial-assets/files-component.png" />
 </p>
+
 # Crear un story
   - Dentro de la carpeta designada para el componente creamos el archivo *.stories.ts*
     - Aquí se deberá definir cada uno de los stories que queramos presentar
@@ -43,10 +44,12 @@ Creación de las carpetas y archivos
 <p align="center">
   <img src="./tutorial-assets/files-stories.png" />
 </p>
+
 ### Input.stories.js
 <p align="center">
   <img src="./tutorial-assets/code-stories.png" />
 </p>
+
 ## Resultado
 <p align="center">
   <img src="./tutorial-assets/result-1.png" />
