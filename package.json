@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -21,12 +21,15 @@
   "homepage": "https://github.com/Boodline/storybook-dojo#readme",
   "devDependencies": {
     "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
     "@storybook/addon-actions": "^6.0.13",
     "@storybook/addon-essentials": "^6.0.13",
     "@storybook/addon-links": "^6.0.13",
     "@storybook/react": "^6.0.13",
     "@testing-library/react": "^10.4.8",
     "@types/jest": "^26.0.10",
+    "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
     "jest": "^26.4.1",
     "react-is": "^16.13.1",
